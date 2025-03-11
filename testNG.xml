@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yahoo Finance Test Suite" parallel="tests" thread-count="2">
+
+    <test name="Chrome/Firefox Test">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="browserVersion" value="latest"/>
+        <parameter name="os" value="MAC"/>
+        <classes>
+            <class name="YahooPageTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="Firefox Test">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <parameter name="browserVersion" value="latest"/>-->
+<!--        <parameter name="os" value="MAC"/>-->
+<!--        <classes>-->
+<!--            <class name="YahooPageTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

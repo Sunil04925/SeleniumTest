@@ -1,0 +1,13 @@
+Selenium Test
+
+This project contains the Automated TC for the site Yahoo Finance.
+
+To run this project Trigger the testng.xml file, which require some parameters.
+
+1. Browser Name: Chrome, Firefox, IE
+2. Environment: Local, Remote
+3. URL: URL of the site
+etc
+
+
+
